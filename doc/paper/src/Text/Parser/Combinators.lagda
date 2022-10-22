@@ -22,7 +22,7 @@ open import Agda.Builtin.Equality
 import Data.String as String
 open String using () renaming (String to Text)
 
-open import Category.Monad
+open import Effect.Monad
 open import Data.List.Sized
 open import Text.Parser.Success as Success
 open import Function

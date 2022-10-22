@@ -11,18 +11,18 @@ import Data.Empty as Empty
 open import Data.Product as Product using (_,_; proj₁)
 
 open import Data.List.Base as List using ([]; _∷_)
-open import Data.List.Categorical as List
+open import Data.List.Effectful as List
 open import Data.List.Sized.Interface
 
 open import Data.String as String
 open import Data.Vec as Vec using ()
 open import Data.Bool
 open import Data.Maybe as Maybe using (nothing; just; maybe′)
-open import Data.Maybe.Categorical as MaybeCat
+open import Data.Maybe.Effectful as MaybeCat
 open import Data.Sum
 open import Function
-open import Category.Monad
-open import Category.Monad.State
+open import Effect.Monad
+open import Effect.Monad.State
 open import Relation.Nullary
 open import Relation.Nullary.Decidable
 
